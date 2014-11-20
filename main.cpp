@@ -2,7 +2,7 @@
 #include "utilstrencodings.h"
 #include "uint256.h"
 #include "hash.h"
-#include <Python/Python.h>
+#include <Python.h>
 
 uint256 CheckMerkleBranch(uint256 hash, const std::vector<uint256>& vMerkleBranch, int nIndex)
 {
